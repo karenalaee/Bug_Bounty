@@ -7,18 +7,20 @@ they can use this tool.
 
 This tool use sqlmap and xss attack, and finds login pages log.
 
-! Disclamer : This tool for Educational purpose
+! Disclamer : This tool for Educational purposes only !
 -
 
 How to run the tool?
 =
 to run this tool you need to install python3:
+```
 $ apt install python or python3
-
+```
 then run it:
+```
 $ python3 bug_bounty.py
-
+```
 in this moment, tool asks for url:
-Enter the target website URL: 
+`Enter the target website URL:` 
 
 enter the url, and that's start bug bounty and when done you can see bugs and logs in bugs.txt and logs.txt.
